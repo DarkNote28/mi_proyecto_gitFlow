@@ -1,14 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author USUARIO
- */
-public class Persona {
-    public abstract class Persona {
+public abstract class Persona {
 private String dni;
 private String apellido;
 private String nombre;
@@ -64,6 +55,5 @@ public abstract String getRol();
 public String toString() {
 return String.format("DNI: %s | Nombre: %s | Edad: %d años",
 dni, getNombreCompleto(), edad);
-}
 }
 }
